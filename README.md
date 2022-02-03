@@ -2,6 +2,7 @@
 <hr>
 <a href="#coursework1">課程作業1</a>
 <hr>
-<h3><a id="coursework1">課程作業1</a></h3>
-  請使用 Java 8 stream 進行資料分析並取得 mary 的老師有誰? (印出 name)<br>
-  程式碼: <a href="src/test/java/com/study/SpringCoreCoursework/coursework1/Test1.java">Test1</a>
+<h3><ul><a id="coursework1">課程作業1</a></h3>
+  <li>請使用 Java 8 stream 進行資料分析並取得 mary 的老師有誰? (印出 name)<li>
+  <li>程式碼: <a href="src/test/java/com/study/SpringCoreCoursework/coursework1/Test1.java">Test1</a><li>
+  </ul>
