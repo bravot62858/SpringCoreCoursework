@@ -2,7 +2,8 @@
 <hr>
 <a href="#coursework1">課程作業1</a><br>
 <a href="#coursework2">課程作業2</a><br>
-<a href="#coursework3">課程作業3</a>
+<a href="#coursework3">課程作業3</a><br>
+<a href="#coursework4">課程作業4</a><br>
 
 <hr>
 <a id="coursework1">課程作業1</a><br>
@@ -30,3 +31,8 @@
 哪一張發票價值最高?<br></h5>
   程式碼: <a href="src/test/java/com/study/SpringCoreCoursework/coursework3/HomeTest1.java">HomeTest1</a><br>
  
+<hr>
+<a id="coursework4">課程作業4</a><br>
+  建立交易紀錄 order_log 資料表，試問: 資料表應如何創建 (注意: 若 book 的 price 欄位有變動，order_log 則不影響)，請完成整段資料庫 log 寫入機制<br>
+  程式碼: <a href="src/test/java/com/study/SpringCoreCoursework/coursework4/TestBook.java">TestBook</a>
+  
