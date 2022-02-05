@@ -1,5 +1,6 @@
 package com.study.SpringCoreCoursework.coursework4.controller;
 
+import java.text.SimpleDateFormat;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,7 +42,9 @@ public class BookController {
 	public void queryOrder() {
 		List<Order_Log> order_Logs = bookService.queryOrder();
 		for(Order_Log ol:order_Logs) {
-			System.out.println(ol.getWallet().getWname()+" 在 "+ol.getBuytime()+" 買了 "+ol.getBook().getBname()+" "+ol.getAmount()+" 本，共 "+ol.getTotal()+" 元");
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd a hh:mm:ss");
+			String timeformat = sdf.format(ol.getBuytime());
+			System.out.println(ol.getWallet().getWname()+" 在 "+timeformat+" 買了 "+ol.getBook().getBname()+" "+ol.getAmount()+" 本，共 "+ol.getTotal()+" 元");
 		}
 	}
 	
