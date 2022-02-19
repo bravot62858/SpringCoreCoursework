@@ -4,6 +4,7 @@
 * [課程作業2](#課程作業2)
 * [課程作業3](#課程作業3)
 * [課程作業4](#課程作業4)
+* [課程作業5](#課程作業5)
 ---
 ## 題目
 ### 課程作業1
@@ -37,4 +38,14 @@
 - 建立交易紀錄 order_log 資料表，試問: 資料表應如何創建 (注意: 若 book 的 price 欄位有變動，order_log 則不影響)，請完成整段資料庫 log 寫入機制
 
   程式碼: [TestBook](src/test/java/com/study/SpringCoreCoursework/coursework4/TestBook.java)
+
+<hr>
+
+# SpringMVCCoursework
+
+數據庫連結: [SpringMVCCoursework_Repository](https://github.com/bravot62858/SpringMVCCoursework)
   
+### 課程作業5
+- 統計每一顆號碼出現的次數(按照出現次數由大到小排序)  
+  
+  程式碼: [show_lotto](https://github.com/bravot62858/SpringMVCCoursework/blob/master/src/main/webapp/WEB-INF/views/coursework5/show_lotto.jsp)
