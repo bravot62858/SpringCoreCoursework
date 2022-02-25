@@ -5,6 +5,7 @@
 * [課程作業3](#課程作業3)
 * [課程作業4](#課程作業4)
 * [課程作業5](#課程作業5)
+* [課程作業6](#課程作業6)
 ---
 ## 題目
 ### 課程作業1
@@ -49,3 +50,9 @@
 - 統計每一顆號碼出現的次數(按照出現次數由大到小排序)  
   
   程式碼: [show_lotto](https://github.com/bravot62858/SpringMVCCoursework/blob/master/src/main/webapp/WEB-INF/views/coursework5/show_lotto.jsp)
+  
+### 課程作業6
+- 時段改成spform:checkboxes
+- 繳費改成spform:radiobuttons
+  
+  程式碼: [exam_form.jspf](https://github.com/bravot62858/SpringMVCCoursework/blob/master/src/main/webapp/WEB-INF/views/coursework6/exam_form.jspf)
